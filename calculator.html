@@ -17,7 +17,10 @@ function sqr() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 2);
 }
-
+function inverse() {
+ var num = document.getElementById("n1");
+ num.value = Math.pow(num.value, -1);
+}
 </script>
 </head>
 <body>
@@ -29,6 +32,7 @@ function sqr() {
  <button onclick="sin()"> sin(x) </button>
  <button onclick="forthpower()"> x^4 </button>
  <button onclick="sqr()"> x^3 </button>
+ <button onclick="inverse()"> 1/x </button>
 
  </p>
 </body>
